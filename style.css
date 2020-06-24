@@ -135,3 +135,16 @@ small.culture {
     margin: 0 !important;
   }
 }
+
+@media screen and (min-width: 992px) {
+  main {
+    padding: 0 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0 4em;
+    background-color: #f4f5f6;
+  }
+}
