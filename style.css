@@ -120,3 +120,12 @@ small.culture {
   color: black;
   background-color: #c2d4d7;
 }
+
+.more-stories-border {
+  border-top: 0.5px solid grey;
+}
+@media screen and (min-width: 768px) {
+  .featured-stories {
+    order: -1;
+  }
+}
