@@ -177,13 +177,71 @@ small.culture {
   padding: 5px 7px;
   font-size: 20px;
   font-weight: 700;
-  /* margin: 5px 0; */
 }
 
 .magazine-capture small:last-child {
   font-size: 20px;
   font-weight: 700;
   margin-left: 12px;
+}
+
+.subscribe-header,
+.newsletter-header {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(247, 34, 16);
+}
+
+.subscribe-main {
+  background-color: #f4f5f6;
+}
+.subscribe-content {
+  max-width: 50%;
+  background-repeat: no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e");
+}
+
+.subscribe-content-img {
+  left: 5em;
+  top: 1em;
+}
+
+.subscribe-content-p1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  bottom: 5.5em;
+  left: 5%;
+  right: 5%;
+}
+
+.newsletter-content-h6 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+}
+.subscribe-content-p2 {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  color: black;
+  margin-top: 1.5em;
+  max-width: 80%;
+}
+
+.newsletter-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  color: black;
+  margin-top: 1.5em;
+}
+
+.newsletter-content-button,.newsletter-content-input{
+  width: 93%;
 }
 
 @media screen and (min-width: 768px) {
