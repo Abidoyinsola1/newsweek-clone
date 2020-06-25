@@ -9,6 +9,36 @@ a {
   text-decoration: none;
 }
 
+.navbar-flex {
+  display: flex;
+}
+
+.nav-right {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .fa-user {
+  color: #f4f5f6;
+  font-size: 22px;
+}
+
+nav img {
+  width: 50%;
+}
+
+nav button {
+  background-color: #ffe400;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #f4f5f6;
@@ -29,7 +59,7 @@ nav {
 .section-title {
   font-size: 16px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 18px;
   color: rgba(3, 3, 3, 0.4);
 }
 
@@ -60,9 +90,10 @@ h3.card-title a:hover,
 }
 
 p.card-text {
-  font-size: 13px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 22px;
   color: rgb(51, 51, 51);
 }
 
@@ -124,6 +155,8 @@ small.culture {
 .more-stories-border {
   border-top: 0.5px solid grey;
 }
+
+
 @media screen and (min-width: 768px) {
   body {
     background-color: white;
