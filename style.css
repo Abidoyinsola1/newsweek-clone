@@ -31,12 +31,12 @@ nav img {
 
 nav button {
   background-color: #ffe400;
-    color: black;
-    border-radius: 20px;
-    border: none;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 600;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 body {
@@ -156,6 +156,35 @@ small.culture {
   border-top: 0.5px solid grey;
 }
 
+.magazine-img img {
+  height: 170px;
+}
+.us-header {
+  font-weight: 900;
+  color: red;
+}
+
+.img-full-height {
+  height: 100%;
+}
+
+.magazine-capture {
+  margin-top: 13px;
+  padding-bottom: 5px;
+}
+
+.magazine-capture small:first-child {
+  padding: 5px 7px;
+  font-size: 20px;
+  font-weight: 700;
+  /* margin: 5px 0; */
+}
+
+.magazine-capture small:last-child {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 12px;
+}
 
 @media screen and (min-width: 768px) {
   body {
