@@ -1856,26 +1856,27 @@
             <hr class="mt-4" />
           </div>
         </section>
-        <section class="row px-3">
+        <!-- Subscribe and Newsletter -->
+        <section class="row px-3 d-md-none">
           <!-- Subscribe -->
-          <section class="bg-white mt-3">
+          <section class="bg-white mt-3 col-12">
             <div class="my-4">
               <h4 class="subscribe-header text-uppercase">Subscribe</h4>
-              <div class="subscribe-main py-3 position-relative">
+              <div class="subscribe-main py-3 position-relative ">
                 <div class="subscribe-content mx-auto">
                     <img
                       class="position-relative subscribe-content-img"
                       src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&q=95&f=5fb0215ca8fd65a8cfe24229880661d4"
                       alt="">
                 </div>
-                <p class="text-center subscribe-content-p1 position-absolute">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
-                <p class="text-center mx-auto subscribe-content-p2">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
-                <button class="d-flex justify-content-center btn btn-danger mx-auto"> SUBSCRIBE<i class="fa fa-chevron-right align-self-center pl-2"></i></button>
+                  <p class="text-center subscribe-content-p1 position-absolute">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+                  <p class="text-center mx-auto subscribe-content-p2">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+                  <button class="d-flex justify-content-center btn btn-danger mx-auto"> SUBSCRIBE<i class="fa fa-chevron-right align-self-center pl-2"></i></button>
               </div>
             </div>
           </section>
           <!-- Newsletter -->
-          <section class="bg-white mt-3">
+          <section class="bg-white mt-3 col-12">
             <div class="my-4">
               <h4 class="newsletter-header text-uppercase">Newsletter</h4>
               <div class="py-3 border">
@@ -1887,13 +1888,59 @@
             </div>
           </section>
         </section>
+        <!-- Subscribe and Newsletter for medium screen and above -->
+        <section class="bg-white d-none d-md-block  pb-lg-4">
+          <hr class="mt-4" />
+          <div class="row">
+            <!-- subscribe -->
+            <div class="px-3 col-lg-7">
+              <h4 class="subscribe-header text-uppercase mt-4">Subscribe</h4>
+              <div class="row subscribe-main pt-4 pb-4 mx-1">
+                <div class="col-md-6">
+                  <div class="subscribe-content1 ml-4 ml-lg-1">
+                    <img
+                      class="position-relative subscribe-content-img"
+                      src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&q=95&f=5fb0215ca8fd65a8cfe24229880661d4"
+                      alt="">
+                  </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-lg-0 pl-lg-4">
+                  <p class="subscribe-content-p3">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+                  <p class="newsletter-content-p2">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+                  <button class="d-flex btn btn-danger"> SUBSCRIBE<i class="fa fa-chevron-right align-self-center pl-2"></i></button>
+                </div>
+              </div>
+            </div>
+            <!-- Newsletter -->
+            <div class="px-3 col-lg-5">
+              <h4 class="newsletter-header text-uppercase mt-4">Newsletter</h4>
+              <div class="card mb-3 newsletter-lg">
+                <div class="row no-gutters  height-100">
+                  <div class="col-md-3 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png" class="img-full-width img-full-height" alt="...">
+                  </div>
+                  <div class="col-md-9 col-lg-7">
+                    <div class="card-body">
+                      <h6 class="newsletter-content-h6">The Starting 5</h6>
+                      <p class="newsletter-content-p">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                      <input class="newsletter-content-input mb-2 pl-2" type="email" placeholder="Email address">
+                      <button class="d-flex justify-content-center btn btn-danger newsletter-content-button"> SUBSCRIBE<i class="fa fa-chevron-right align-self-center pl-2"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="mt-5 d-none d-lg-block" />
+        </section>
       </section>
     </main>
-    <footer class="bg-white mt-3 row">
-      <div class="my-4">
+    <hr class="mt-4 d-none d-md-block d-lg-none" />
+    <footer class="bg-white mt-3 mt-lg-0 row mx-lg-0">
+      <div class="my-4 mt-lg-0">
         <div class="d-md-flex justify-content-md-between">
           <div class="d-md-flex">
-            <h3 class="mr-2 footer-header">Newsweek</h3>
+            <h3 class="mr-2 footer-header mt-3">Newsweek</h3>
             <small class="footer-grey align-self-md-end">&copy; 2020 NEWSWEEK</small>
           </div>
           <div class="footer-grey align-self-md-end">

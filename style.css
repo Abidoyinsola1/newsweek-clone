@@ -208,6 +208,11 @@ small.culture {
   background-image: url("https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e");
 }
 
+.subscribe-content1 {
+  background-repeat: no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e");
+}
+
 .subscribe-content-img {
   left: 5em;
   top: 1em;
@@ -229,13 +234,21 @@ small.culture {
   line-height: 28px;
   color: black;
 }
-.subscribe-content-p2 {
+.subscribe-content-p2,.newsletter-content-p2 {
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
   color: black;
   margin-top: 1.5em;
   max-width: 80%;
+}
+
+.subscribe-content-p3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .newsletter-content-p {
@@ -278,11 +291,25 @@ small.culture {
   .the-debate {
     margin: 0 !important;
   }
+  .newsletter-content-button,
+  .newsletter-content-input {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {
-  main {
+  main,footer {
     padding: 0 1em;
+  }
+  .newsletter-content-p2 {
+    max-width: 100%;
+  }
+  .newsletter-lg{
+    height: 87%;
+  }
+
+  .height-100{
+    height: 100%;
   }
 }
 
