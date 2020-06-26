@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: red;
+}
+
+.second-nav a,
+.nav-grey {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.brand-logo img {
+  width: 80%;
+}
+
+.brand-logo {
+  width: 50%;
+}
+
+.second-nav li {
+  margin: 15px 0;
+}
+
+.small-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.more-stories a,
+h3.card-title a {
+  color: black;
+}
+
+.second-nav a:hover {
+  color: red;
+}
+
+.second-nav input {
+  margin: 3px 0;
+  border: none;
+}
+
+nav .fa-user {
+  color: #f4f5f6;
+  font-size: 22px;
+}
+
+nav button {
+  background-color: #ffe400;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.small-nav {
+  margin-bottom: -25px;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 900;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+
+nav .weather {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
+}
+
+body p,
+.footer-link,
+.footer-header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-white {
+  padding: 0 1em;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+small.position-absolute {
+  bottom: 0;
+  left: 0;
+  background-color: #f4f5f6;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  color: rgb(247, 34, 16);
+}
+
+h3.card-title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.small-header a:hover {
+  color: red;
+}
+
+.more-stories a:hover,
+h3.card-title a:hover {
+  text-decoration-color: red;
+}
+
+p.card-text {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(51, 51, 51);
+}
+
+.debate {
+  border-top: 4px solid red;
+  border-bottom: 4px solid blue;
+  border-left: none;
+  border-right: none;
+}
+
+.img-full-width {
+  width: 100%;
+}
+
+.small-header,
+.more-stories {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+p.small-header {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.debate-vs {
+  border-top: 2px double grey;
+}
+
+.debate-vs span {
+  left: 50%;
+  top: -20px;
+  background-color: black;
+  border-radius: 50%;
+  color: #f4f5f6;
+  padding: 5px 8px;
+}
+
+small.culture {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  color: black;
+  background-color: #c2d4d7;
+}
+
+.search::placeholder {
+  background-image: url(./assets/images/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.more-stories-border {
+  border-top: 0.5px solid grey;
+}
+
+.us-header {
+  font-weight: 900;
+  color: red;
+}
+
+.img-full-height {
+  height: 100%;
+}
+
+.magazine-capture {
+  margin-top: 13px;
+  padding-bottom: 5px;
+}
+
+.magazine-capture small:first-child {
+  padding: 5px 7px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.magazine-capture small:last-child {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 12px;
+}
+
+.subscribe-header,
+.newsletter-header {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(247, 34, 16);
+}
+
+.subscribe-main {
+  background-color: #f4f5f6;
+}
+
+.subscribe-content {
+  max-width: 50%;
+  background-repeat: no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e");
+}
+
+.subscribe-content1 {
+  background-repeat: no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e");
+}
+
+.subscribe-content-img {
+  left: 5em;
+  top: 1em;
+}
+
+.subscribe-content-p1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  bottom: 5.5em;
+  left: 5%;
+  right: 5%;
+}
+
+.newsletter-content-h6 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+}
+
+.subscribe-content-p2,
+.newsletter-content-p2 {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  color: black;
+  margin-top: 1.5em;
+  max-width: 80%;
+}
+
+.subscribe-content-p3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.newsletter-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  color: black;
+  margin-top: 1.5em;
+}
+
+.newsletter-content-button,
+.newsletter-content-input {
+  width: 93%;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.footer-grey,
+.nav-grey {
+  color: #6d6d6d;
+}
+
+.footer-header {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 18px;
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+
+  .featured-stories {
+    order: -1;
+  }
+
+  .brand-logo {
+    width: 250px;
+  }
+
+  .the-debate {
+    margin: 0 !important;
+  }
+
+  .newsletter-content-button,
+  .newsletter-content-input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main,
+  footer {
+    padding: 0 1em;
+  }
+
+  nav,
+  .second-nav {
+    width: 97.5%;
+    margin: 0 auto;
+  }
+
+  .brand-logo {
+    width: 300px;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-bottom: -10px;
+  }
+
+  .newsletter-content-p2 {
+    max-width: 100%;
+  }
+
+  .the-debate {
+    margin-top: -8px !important;
+  }
+
+  .second-nav a,
+  .nav-grey {
+    font-size: 18px !important;
+  }
+
+  .newsletter-lg {
+    height: 87%;
+  }
+
+  .height-100 {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0 4em;
+    background-color: #f4f5f6;
+  }
+
+  nav,
+  .second-nav {
+    width: 98.2%;
+    margin: 0 auto;
+  }
+
+  .brand-logo img {
+    width: 150%;
+  }
+
+  .second-nav a,
+  .nav-grey {
+    font-size: 24px;
+  }
+}
