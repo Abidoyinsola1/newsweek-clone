@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .navbar-flex {
   display: flex;
 }
@@ -44,7 +48,9 @@ body {
   background-color: #f4f5f6;
 }
 
-body p {
+body p,
+.footer-link,
+.footer-header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -240,8 +246,26 @@ small.culture {
   margin-top: 1.5em;
 }
 
-.newsletter-content-button,.newsletter-content-input{
+.newsletter-content-button,
+.newsletter-content-input {
   width: 93%;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.footer-grey {
+  color: #6d6d6d;
+}
+
+.footer-header {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 18px;
+  color: red;
 }
 
 @media screen and (min-width: 768px) {
