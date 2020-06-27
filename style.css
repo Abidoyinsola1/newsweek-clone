@@ -36,12 +36,22 @@ nav {
   margin: 15px 0;
 }
 
+.small-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.more-stories a,
+h3.card-title a {
+  color: black;
+}
+
 .second-nav a:hover {
   color: red;
 }
 
 .second-nav input {
-  margin: 10px 0;
+  margin: 3px 0;
   border: none;
 }
 
@@ -116,13 +126,12 @@ h3.card-title {
   font-weight: 600;
 }
 
-h3.card-title a,
-.more-stories a {
-  color: black;
+.small-header a:hover {
+  color: red;
 }
 
-h3.card-title a:hover,
-.more-stories a:hover {
+.more-stories a:hover,
+h3.card-title a:hover {
   text-decoration-color: red;
 }
 
@@ -150,15 +159,6 @@ p.card-text {
   font-size: 17px;
   font-weight: 700;
   line-height: 21px;
-}
-
-.small-header a {
-  text-decoration: none;
-  color: black;
-}
-
-.small-header a:hover {
-  color: red;
 }
 
 p.small-header {
@@ -238,6 +238,7 @@ small.culture {
 .subscribe-main {
   background-color: #f4f5f6;
 }
+
 .subscribe-content {
   max-width: 50%;
   background-repeat: no-repeat;
@@ -270,6 +271,7 @@ small.culture {
   line-height: 28px;
   color: black;
 }
+
 .subscribe-content-p2,
 .newsletter-content-p2 {
   font-size: 15px;
@@ -323,6 +325,7 @@ small.culture {
   body {
     background-color: white;
   }
+
   .featured-stories {
     order: -1;
   }
@@ -334,6 +337,7 @@ small.culture {
   .the-debate {
     margin: 0 !important;
   }
+
   .newsletter-content-button,
   .newsletter-content-input {
     width: 100%;
@@ -346,7 +350,8 @@ small.culture {
     padding: 0 1em;
   }
 
-  nav, .second-nav {
+  nav,
+  .second-nav {
     width: 97.5%;
     margin: 0 auto;
   }
@@ -390,7 +395,8 @@ small.culture {
     background-color: #f4f5f6;
   }
 
-  nav, .second-nav {
+  nav,
+  .second-nav {
     width: 98.2%;
     margin: 0 auto;
   }
@@ -398,7 +404,7 @@ small.culture {
   .brand-logo img {
     width: 150%;
   }
-  
+
   .second-nav a,
   .nav-grey {
     font-size: 24px;
